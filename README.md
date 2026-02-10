@@ -12,3 +12,7 @@ They are controlled with:
 - Duty cycle of [5-10%] mapping to [-90,90]
 
 Any GPIO pin in the rp2350 can drive PWM signals
+
+SG90 servos are driven with 5V, so use an external
+power supply to drive the VIN pins, tie to GND 
+with 47uF electrolytic cap

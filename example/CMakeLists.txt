@@ -10,7 +10,7 @@ message(${sdk_import_PATH})
 include(${sdk_import_PATH})
 
 get_filename_component(DIR_NAME_NOPATH ${CMAKE_CURRENT_SOURCE_DIR} NAME)
-project(${DIR_NAME_NOPATH}_example C CXX ASM)
+project(${DIR_NAME_NOPATH} C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
